@@ -35,6 +35,12 @@ h2 {
   font-family: 'Dancing Script', cursive;
 }
 
+.scrollable_heading_container{
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 15px;
+}
+
 .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1005,8 +1011,10 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
-.ina a{
+
+.ina{
+  color: white;
   font-size: x-small;
+  margin-top: -55px;
   text-align: center;
-  margin-top: -50px;
 }
